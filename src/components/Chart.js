@@ -69,8 +69,4 @@ export default function Chart({ results, width }) {
   );
 }
 
-// import { Area, AreaChart, ResponsiveContainer, Tooltip, YAxis } from "recharts";
 
-// export default function Chart({ results, width }) {
-//   return <div className="bg-green-300 min-w-[100px] min-h-[50px]">data</div>;
-// }
