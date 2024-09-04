@@ -9,7 +9,7 @@ export async function POST(req) {
   const data = await req.json();
   const response_id = data.response_id;
   const url =
-    "https://api.brightdata.com/serp/get_result?customer=hl_e7fe7ce4&zone=rank&response_id=" +
+    "https://api.brightdata.com/serp/get_result?customer=&zone=&response_id=" +
     response_id;
 
   const headers = {
